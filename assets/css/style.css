@@ -1,0 +1,152 @@
+body, a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    height: 80px;
+}
+.navbar{
+    z-index: 2;
+}
+.navbar-nav li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #006a4d!important;
+}
+.nav-item a:hover, .nav-item a:active, .nav-item a:focus{
+    color: #69be28!important;
+    text-decoration: underline solid 4px;
+    text-underline-offset: 14px;
+}
+.nav-item{
+    padding: 0 20px 0 20px;
+}
+
+/* ==================heroimage css starts here=============== */
+.heroImg{
+    background-image: linear-gradient(rgb(127, 180, 166,0.5),rgb(127, 180, 166,0.5)), url(/assets/images/heroimg.jpg);
+    height: 400px;
+    text-align: center;
+    /* position: fixed; */
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.headings{
+    height: 100%;
+}
+.heading4{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.heading6{
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+}
+.heading1{
+    font-weight: bold;
+    font-size: 58px;
+    color: #fff;
+    text-decoration: underline solid 1px;
+    text-underline-offset: 15px;
+}
+
+
+/* =====================event css starts here=================== */
+.headingEvent{
+    color: #006a4d;
+    font-size: 36px;
+    font-weight: bold;
+}
+.eventPara{
+    font-size: 16px;
+    font-weight: 400;
+}
+.headingEvent6{
+    color: #006a4d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* =====================speakers section css starts here=================== */
+
+.speakers{
+    background-color: #006a4d;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.speakers h3{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.speakers p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.speaker-info>h6{
+    font-size: 18px!important;
+    font-weight: bold!important;
+    margin-top: 10px;
+}
+.speaker-info>span{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.speaker-img img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.btn-speaker, .btn-speaker a:link, .btn-speaker a:visited, .btn-speaker a:active{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-speaker{
+    border: 2px solid #fff;
+    margin-top: 70px;
+}
+
+/* =====================speakers section css starts here=================== */
+
+.footer{
+    background-color: #3c3c3c;
+    padding: 75px 0;
+}
+.footer-info{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-info>p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.social-icons a:link, .social-icons a:visited{
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+.follow{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width: 950px){
+    .speaker-img img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+}
